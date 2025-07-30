@@ -2,7 +2,7 @@ import unittest
 from pyspark.sql import DataFrame, SparkSession
 from tests.generic.dataclass import GenericDatasetSchema
 from dataclasses import asdict, dataclass, field
-from dataclass_metadata.metadata_updater import MetadataUpdater
+from pyspark_dataclass_metadata.metadata_updater import MetadataUpdater
 from pyspark.sql.types import StructType, StructField
 
 

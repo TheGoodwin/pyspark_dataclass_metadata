@@ -1,6 +1,6 @@
 from pyspark.sql import DataFrame
 from typing import Type, TypeVar
-from dataclass_metadata.dataset_schema import DatasetSchema
+from pyspark_dataclass_metadata.dataset_schema import DatasetSchema
 from dataclasses import fields
 
 T = TypeVar("T", bound=DatasetSchema)
