@@ -9,6 +9,7 @@ packages = [{include = "dataclass_metadata"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+pyspark = "^3.4.1"
 
 
 [build-system]
