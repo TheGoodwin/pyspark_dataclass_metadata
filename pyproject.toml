@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dataclass-metadata"
+version = "0.1.0"
+description = "Library used for getting metadata from Python dataclasses"
+authors = ["Jean-Paul Goodwin <goodwinjeanpaul@outlook.fr>"]
+license = "Apache-2.0 license"
+readme = "README.md"
+packages = [{include = "dataclass_metadata"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
